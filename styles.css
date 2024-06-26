@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary: #396dff;
+    --grey: #f7f7f7;
+    --white: #fff;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+body {
+    margin: 0;
+    font-family: "Noto Serif", serif;
+}
+
+.u-flex {
+    display: flex;
+}
+
+.u-textCenter {
+    text-align: center;
+}
+
+.navContainer {
+    padding: var(--s) var(--m);
+    background-color: var(--primary);
+}
+
+.navTitle {
+    color: var(--white);
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.avatarContainer {
+    padding: 0 35%;
+}
+
+.avatar {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 50%;
+
+    background-image: url("Claire.JPG");
+
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subContainer {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
